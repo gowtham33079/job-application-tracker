@@ -1,0 +1,49 @@
+.dashboard{
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-column: 125px auto;
+
+}
+.dashboard .header{
+     grid-column: 1/span 2;
+     border-bottom: 1px solid black;
+     lined-height: 50px;
+}
+.dashboard .menu{
+    border-right: 1px grey; 
+}
+.dashboard .outlet{
+    background: lightcyan;
+}
+.header .logo{
+    width:
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.header .logoText{
+
+}
+.haeder .logoText .span{
+      color:blanchedalmond;
+}
+.header .logout{
+    width: 20px;
+    float: right;
+margin-top: 12px;
+margin-right: 10px;
+
+}
+.header .logout .hover{
+    cursor: pointer;
+    opacity: 075;
+}
+.header .label{
+    font-weight: bold;
+    float: right;
+    margin-top: 15px;
+}
